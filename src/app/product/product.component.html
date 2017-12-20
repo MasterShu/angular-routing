@@ -1,0 +1,10 @@
+<p>
+  product works!
+</p>
+<p>
+  商品id 为 {{productId}}
+</p>
+<!-- 子路由的用法, 需要使用 ./ 这样的形式来确定相对路由 -->
+<a [routerLink]="['./']">描述</a>
+<a [routerLink]="['./seller', 99]">谁在此</a>
+<router-outlet></router-outlet>
